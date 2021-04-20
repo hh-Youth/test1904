@@ -16,6 +16,6 @@ public class mainShop {
         UsbSell proxy= (UsbSell) Proxy.newProxyInstance(usbKing.getClass().getClassLoader(),
                 usbKing.getClass().getInterfaces(),myhad);
         System.out.println("代理商价格为："+proxy.usbsell(1));
-        
+        System.out.println("---");
     }
 }
